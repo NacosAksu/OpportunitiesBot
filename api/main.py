@@ -15,6 +15,8 @@ app.add_middleware(
     allow_origins=[
         "https://www.fcitaksu.com.ng",
         "https://fcitaksu.com.ng",
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
     ],
     allow_methods=["GET"],
     allow_headers=["*"],
